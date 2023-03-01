@@ -33,6 +33,12 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
             return AlertDialog(
               content: Text(
                 "Password reset link sent successfully!",
+                style: GoogleFonts.rubik(
+                  textStyle: TextStyle(
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.grey[500]),
+                ),
               ),
             );
           });
@@ -43,6 +49,12 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
             return AlertDialog(
               content: Text(
                 e.message.toString(),
+                style: GoogleFonts.rubik(
+                  textStyle: TextStyle(
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.grey[700]),
+                ),
               ),
             );
           });

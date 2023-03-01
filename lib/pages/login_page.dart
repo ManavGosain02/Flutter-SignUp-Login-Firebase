@@ -91,6 +91,12 @@ class _LoginPageState extends State<LoginPage> {
                     child: Padding(
                       padding: const EdgeInsets.only(left: 20.0),
                       child: TextField(
+                        style: GoogleFonts.rubik(
+                          textStyle: TextStyle(
+                              fontSize: 18.0,
+                              fontWeight: FontWeight.w500,
+                              color: Colors.deepPurple),
+                        ),
                         controller: _emailController,
                         decoration: InputDecoration(
                           border: InputBorder.none,
@@ -125,6 +131,12 @@ class _LoginPageState extends State<LoginPage> {
                     child: Padding(
                       padding: const EdgeInsets.only(left: 20.0),
                       child: TextField(
+                        style: GoogleFonts.rubik(
+                          textStyle: TextStyle(
+                              fontSize: 18.0,
+                              fontWeight: FontWeight.w500,
+                              color: Colors.deepPurple),
+                        ),
                         controller: _passwordController,
                         obscureText: true,
                         decoration: InputDecoration(
