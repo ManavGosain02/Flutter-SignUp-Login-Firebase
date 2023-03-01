@@ -93,9 +93,15 @@ class _RegisterPageState extends State<RegisterPage> {
                       padding: const EdgeInsets.only(left: 20.0),
                       child: TextField(
                         controller: _emailController,
-                        decoration: const InputDecoration(
+                        decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: "Email",
+                          hintStyle: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                                fontSize: 18.0,
+                                fontWeight: FontWeight.w500,
+                                color: Colors.grey[500]),
+                          ),
                         ),
                       ),
                     ),
@@ -122,9 +128,15 @@ class _RegisterPageState extends State<RegisterPage> {
                       child: TextField(
                         controller: _passwordController,
                         obscureText: true,
-                        decoration: const InputDecoration(
+                        decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: "Password",
+                          hintStyle: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                                fontSize: 18.0,
+                                fontWeight: FontWeight.w500,
+                                color: Colors.grey[500]),
+                          ),
                         ),
                       ),
                     ),
@@ -151,9 +163,15 @@ class _RegisterPageState extends State<RegisterPage> {
                       child: TextField(
                         controller: _confirmPasswordController,
                         obscureText: true,
-                        decoration: const InputDecoration(
+                        decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: "Confirm Password",
+                          hintStyle: GoogleFonts.rubik(
+                            textStyle: TextStyle(
+                                fontSize: 18.0,
+                                fontWeight: FontWeight.w500,
+                                color: Colors.grey[500]),
+                          ),
                         ),
                       ),
                     ),
