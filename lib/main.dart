@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_page/main_page.dart';
+import 'package:login_page/auth/main_page.dart';
 // ignore: depend_on_referenced_packages
 import 'package:firebase_core/firebase_core.dart';
 
